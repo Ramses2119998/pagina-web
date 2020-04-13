@@ -5,5 +5,17 @@ color: blue;
 
 h1
 {
-	color: red;
+	font-family: Arial;
+	color: blue;
+}
+
+h2
+{
+	font-family: Arial;
+	color: red
+}
+h3
+{
+	font-family: Arial;
+	color: blue;
 }
