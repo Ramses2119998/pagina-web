@@ -14,6 +14,7 @@
 		SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.<br> Una de sus principales características es el manejo del álgebra y el cálculo relacional para efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar cambios en ellas.<br><br>
 		<a   href="contenido.html">Conteido Multimedia</a><br>
 		<a target="_blank" href="https://es.wikipedia.org/wiki/SQL">Informacion de Wikipedia</a>
+		<a href="tablas.html">Tablas</a><br>
 		
 
 	</div>
@@ -73,6 +74,35 @@
 		</ul>
 			
 	</p>
+
+	<h3>Formularios</h3>
+	<form action="" method="">
+		<!--placeholder: Tener el nombre al hacer clik se borra el texto que se muestra par saber cuales capos son los del formulario
+		maxlength: Nos sirve para establecer cuantos caracteres puede escribir dentro del campo 
+		required: El ususrio a fuerza nos tiene que llenar el espacio es una validacion del navegador-->
+		<input type="text" name="nombre" placeholder="Nombre:" maxlength="100" required=""><br>
+		<input type="email" name="correo" placeholder="Correo:" required=""><br>
+		<!-- id: nos sirve para buscar el elemnto del DON del docuemnto -->
+		<textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea><br>
+		<label for="pais">Pais:</label>
+
+
+		<!--Label: queremos que el texto lo relacione con el imput o select lo relaciona gracias al id,
+		cuando el usario de un clik en el texto se activa el select o imput -->
+		<select name="pais" id="pais">
+			<option value="mexico">Mexico</option>
+			<option value="salvador">Salvador</option>
+			<option value="Australia">Australia</option>
+		</select>
+		<!-- submit: es un boton que nos permite mandar datos --> 
+		
+		<input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+		<input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+		<input type="submit" value="Enviar"><br><br><br>
+		<input type="checkbox" name="terminos" id="terminos" id="terminos">Terminos y Condiciones
+
+		
+	</form>
 
 	
 
